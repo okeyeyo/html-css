@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 @import "reset.css";
+@import "status-bar.css";
 
 body {
     /* font-family: 'Poor Story', system-ui; */
