@@ -26,4 +26,21 @@ body {
     opacity: 0.7;
 }
 
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input {
+    font-size: 18px;
+    border: none;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);;
+}
+
 /* 다른 css 파일 추가하는 거대한 하나의 css 파일 */
