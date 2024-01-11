@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 body {
     /* font-family: 'Poor Story', system-ui; */
@@ -37,10 +38,16 @@ body {
     border: none;
     padding: 15px 0px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
     color: rgba(0, 0, 0, 0.4);;
+}
+
+#login-form input:focus {
+    border-color: var(--yellow);
 }
 
 /* 다른 css 파일 추가하는 거대한 하나의 css 파일 */
