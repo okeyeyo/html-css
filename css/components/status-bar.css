@@ -32,3 +32,10 @@
     height: 13px;
     object-fit: cover;
 }
+
+.nav-friends {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
