@@ -43,7 +43,7 @@ body {
 #login-form input:not([type="submit"]) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
-}
+} /* 나는 submit을 제외하고 나머지 Input 요소가 적용되길 원할 때 사용하는 css:not() */
 
 #login-form input::placeholder {
     color: rgba(0, 0, 0, 0.4);;
@@ -53,4 +53,8 @@ body {
     border-color: var(--yellow);
 }
 
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+}
 /* 다른 css 파일 추가하는 거대한 하나의 css 파일 */
