@@ -56,5 +56,14 @@ body {
 #login-form input[type="submit"] {
     background-color: var(--yellow);
     cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit; /*기본 값인 검은색에서 상속 받음*/
+    font-size: 13px;
 }
 /* 다른 css 파일 추가하는 거대한 하나의 css 파일 */
