@@ -7,15 +7,13 @@
     margin-bottom: 5px;
 }
 
-a img {
+.friends-display-link__img {
     width: 13px;
     height: 13px;
     filter: opacity(0.3);
 }
 
-.friends-display-link__img {
-    width: 13px;
-    height: 13px;
+.friends-screen__channel-header img {
     transform: rotate(270deg);
 }
 
