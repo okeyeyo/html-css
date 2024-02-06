@@ -11,3 +11,7 @@
     height: 13px;
     filter: opacity(0.3);
 }
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
