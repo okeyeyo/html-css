@@ -13,6 +13,10 @@
     filter: opacity(0.3);
 }
 
+.friends-screen__channel-header {
+    padding: 5px 0%;
+}
+
 .friends-screen__channel-header img {
     transform: rotate(270deg);
 }
